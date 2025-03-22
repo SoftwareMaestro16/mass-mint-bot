@@ -9,16 +9,16 @@ bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     const photoPath = path.join(__dirname, 'massmintlogo.jpg');
 
-    const text = `🚀 *Mass Mint: Новая эра децентрализованного NFT-минта!*  
+    const text = `🚀 *Mass Mint: A New Era of Decentralized NFT Minting!*  
 
-Откройте для себя революционный подход к массовому выпуску NFT! Пока традиционные платформы накладывают ограничения и взимают высокие комиссии за каждый минт, *Mass Mint* предоставляет вам полный контроль и свободу в создании цифровых активов.  
-
-🔥 *Преимущества Mass Mint:*  
-✅ *Массовый выпуск NFT* – создавайте до *200 NFT одновременно*, экономя время и средства.  
-✅ *Поддержка SBT (Soulbound Tokens)* – невзаимозаменяемые токены, идеально подходящие для удостоверений, сертификатов и цифровых достижений.  
-✅ *Полная децентрализация* – никакого посредничества и скрытых комиссий, только вы и ваш контракт.  
-
-🔗 *Ниже вы можете открыть Приложение или ознакомиться с Гайдом по использованию.*`;
+Discover a revolutionary approach to mass NFT minting! While traditional platforms impose restrictions and charge high fees for each mint, *Mass Mint* gives you full control and freedom in creating digital assets.  
+    
+🔥 *Advantages of Mass Mint:*  
+✅ *Mass NFT Minting* – create up to *200 NFTs at once*, saving time and costs.  
+✅ *Support for SBT (Soulbound Tokens)* – non-transferable tokens, perfect for certificates, achievements, and digital credentials.  
+✅ *Full Decentralization* – no intermediaries or hidden fees, just you and your contract.  
+    
+🔗 *Below, you can open the app or check out the usage guide.*`;
 
     const options = {
         parse_mode: 'Markdown',
